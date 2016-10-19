@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.item{
+				transition:  all 2s linear;
+			}
+			body:hover .item{
+				transform: translateX(200px) rotate(7200deg);  /*边位移边旋转 */
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width:100px;height:100px;background:red;" class="item"></div>
+		<div style="width:100px;height:100px;background:blue;margin-left:200px;" class="trans"></div>
+	</body>
+</html>

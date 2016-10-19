@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,html{
+				margin:0;
+				padding:0;
+				
+			}
+			.item{
+				animation:donghua 2s ease 2s 1;
+				animation-fill-mode : forwards    /*可以让动画不会到原来的样子*/
+			}
+			@keyframes donghua{
+				from{
+					 transform:translate(0px) rotate(45deg)  
+				}
+				to{
+					 transform:translate(560px) rotate(90deg)
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width:100px;height:100px;background:red;" class="item"></div>
+	</body>
+</html>

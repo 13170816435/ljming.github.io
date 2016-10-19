@@ -1,0 +1,51 @@
+{
+  "index.html": {
+    "resources": [
+      "img/hua.png",
+      "js/swiper.animate1.0.2.min.js",
+      "img/xuanzhuan2.gif",
+      "img/xingkong.jpg",
+      "js/jquery-1.11.0.js",
+      "css/animate.css",
+      "img/xuanzhuang.gif",
+      "js/swiper-3.3.1.jquery.min.js",
+      "css/swiper-3.3.1.min.css",
+      "img/normalmusic.svg",
+      "icon/iconfont.css",
+      "icon/demo.css",
+      "icon/iconfont.woff",
+      "media/yingwenge.mp3",
+      "js/animate-twice.js",
+      "img/liuxing.jpg",
+      "js/swiper.min.js",
+      "img/fiveball.png",
+      "media/Kýý.mp3",
+      "media/Kýý.mp3",
+      "img/erweima.jpg"
+    ],
+    "refer": []
+  },
+  "index2.html": {
+    "resources": [
+      "img/hua.png",
+      "img/xuanzhuan2.gif",
+      "img/xingkong.jpg",
+      "img/liuxing.jpg",
+      "img/normalmusic.svg",
+      "icon/iconfont.css",
+      "css/animate.css",
+      "js/swiper.min.js",
+      "icon/demo.css",
+      "js/swiper-3.3.1.jquery.min.js",
+      "js/animate-twice.js",
+      "js/jquery-1.11.0.js",
+      "icon/iconfont.woff",
+      "img/xuanzhuang.gif",
+      "css/swiper-3.3.1.min.css",
+      "media/Kýý.mp3",
+      "media/Kýý.mp3",
+      "media/yingwenge.mp3"
+    ],
+    "refer": []
+  }
+}

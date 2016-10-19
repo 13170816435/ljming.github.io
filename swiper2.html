@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<style>
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.swiper-container {
+				position:absolute;
+				top:45px;
+				bottom:50px;
+				width:100%;
+				height:80%;
+				background: pink;
+			}
+			
+			button {
+				background: red;
+				width: 100px;
+				height: 50px;
+			}
+			.pageCont{
+				 width:100%;
+				 height:100%;
+			}
+			.item{
+				 height:200px!important;
+				 border-bottom: 1px solid red;
+				 font-size:30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div style="animation: bounceInDown 2s ease 1.8s 1 both;transform: rotateZ(60deg);" >你好</div>
+		<button id="btn">跳转</button>
+		<button id="btn2">获取index</button>
+		<div class="swiper-container pageCont">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide item">
+					<div class="swiper-container list">
+						 <div class="swiper-slide item">
+						 	   <div class="swiper-slide item">slider2</div>
+								<div class="swiper-slide item">slider3</div>
+								<div class="swiper-slide item">slider4</div>
+								<div class="swiper-slide item">slider5</div>
+						 	
+						 </div>
+					</div>
+				</div>
+				<div class="swiper-slide">slider2</div>
+				<div class="swiper-slide ">slider3</div>
+				<div class="swiper-slide ">slider4</div>
+				<div class="swiper-slide ">slider5</div>
+				<div class="swiper-slide ">slider6</div>
+				<div class="swiper-slide ">slider7</div>
+				<div class="swiper-slide ">slider8</div>
+				<div class="swiper-slide ">slider9</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				
+            
+                  }
+			var listSwiper=new Swiper('.list',{
+				 direction:vertical,
+				 slidesPerView:auto,
+				 spaceBetween:1,
+				 
+			})
+		</script>
+	</body>
+
+</html>

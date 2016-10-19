@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/animate.css" />
+		<style>
+			 .sqar{
+			 	 width:50px;
+			 	 height:50px;
+			 	 background:yellow;
+			 	 transform: rotate(45deg);
+			 	 border-top-color: blue;
+			 	border-radius:50%;
+			 }
+		</style>
+	</head>
+	<body>
+		<div class='' style="width:100px;height:100px;background:red;" id="items">test</div>
+		<div style="transform: rotateZ(60deg);width:100px;height:100px;background:blue;" >你好</div>
+		<div style="width:200px;height:200px;background:yellow;animation:bounceInDown 2s ease 1.8s 1 both;" >HELLOW</div>
+		<div class="sqar">正方体</div>
+		<script src="js/jquery-1.11.0.js"></script>
+		<script>
+			   $("#items").addClass("animated shake");
+			   setTimeout(function(){
+			   	  $("#items").removeClass("shake");
+			   	  $("#items").addClass("bounceInUp")
+			   },
+			   2000)
+		</script>
+	</body>
+</html>

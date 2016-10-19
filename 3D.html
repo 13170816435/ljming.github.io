@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,html{
+				margin:0;
+				padding:0;
+				perspective: 700px;
+			}
+			.item{
+				transform-style: preserve-3d;
+				transform: translateX(200px) rotateX(45deg);  /*是没有过渡的效果的*/
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width:100px;height:100px;background:red;" class="item"></div>
+	</body>
+</html>
